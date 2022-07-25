@@ -72,7 +72,7 @@
 
 .cards {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 5%;
 }
 
@@ -373,10 +373,11 @@
   }
   .cards {
     display: flex;
+    justify-content: space-between;
     overflow: scroll;
-    gap: 8%;
+    /* gap: 8%;
     width: -webkit-fill-available;
-    max-width: 169%;
+    max-width: 169%; */
   }
   .cards::-webkit-scrollbar {
     display: none;
@@ -387,17 +388,21 @@
   }
   .card1 {
     min-width: 100%;
+    padding: 10px;
   }
 
   .contain {
     flex-direction: column;
     gap: 15px;
   }
+  .pricing_panel {
+    padding: 40px;
+  }
   .pricing_card_panel {
     flex-direction: column;
   }
   .pricing_card {
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 20%;
   }
 }
