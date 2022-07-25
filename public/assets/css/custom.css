@@ -979,7 +979,7 @@ footer.offline-seller {
   background: #000000;
 }
 footer {
-  background: #000000, #ebebeb;
+  background: #000000;
   position: relative;
 }
 footer .footer-content {
@@ -1842,7 +1842,7 @@ video::-webkit-media-controls {
     display: none;
   }
   header {
-    position: absolute !important;
+    /* position: absolute !important; */
     /* background: transparent !important; */
   }
   .banner {

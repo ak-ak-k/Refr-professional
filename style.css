@@ -72,7 +72,8 @@
 
 .cards {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 5%;
 }
 
 .card1 {
@@ -126,6 +127,7 @@
 .card_hide_show {
   border-radius: 16px;
   padding: 40px 50px;
+  width: 30vw;
 }
 
 .card_img_hide {
@@ -215,6 +217,7 @@
   width: 24%;
   /* height: 250px; */
   padding: 3%;
+  transition: 0.3s ease-in;
 }
 
 .pricing_card:hover {
@@ -364,5 +367,37 @@
     line-height: 40px;
     max-width: 95%;
     padding: 30px 0;
+  }
+  .card_dis {
+    display: block;
+  }
+  .cards {
+    display: flex;
+    overflow: scroll;
+    gap: 8%;
+    width: -webkit-fill-available;
+    max-width: 169%;
+  }
+  .cards::-webkit-scrollbar {
+    display: none;
+  }
+  .card_hide_show {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .card1 {
+    min-width: 100%;
+  }
+
+  .contain {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .pricing_card_panel {
+    flex-direction: column;
+  }
+  .pricing_card {
+    width: 100%;
+    margin-bottom: 40px;
   }
 }
