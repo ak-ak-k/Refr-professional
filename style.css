@@ -405,4 +405,7 @@
     width: 100%;
     margin-bottom: 20%;
   }
+  .card_img {
+    padding: 10px 0;
+  }
 }
