@@ -221,7 +221,7 @@
 }
 
 .pricing_card:hover {
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
   cursor: pointer;
 }
 
@@ -403,7 +403,7 @@
   }
   .pricing_card {
     width: 100%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
   }
   .card_img {
     padding: 10px 0;

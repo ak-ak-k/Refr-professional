@@ -76,6 +76,12 @@
   gap: 5%;
 }
 
+.xyz {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5%;
+}
+
 .card1 {
   /* width: 350px;
   height: 320px;
@@ -309,6 +315,17 @@
   border: none;
 }
 
+.triangle {
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid white;
+  top: -7px;
+  left: 25px;
+}
+
 /*  media queries */
 
 /* @media screen and (min-width: 1600px) and (max-width: 2660px) {
@@ -371,10 +388,17 @@
   .card_dis {
     display: block;
   }
-  .cards {
+  .xyz {
     display: flex;
     justify-content: space-between;
+    gap: 5%;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     overflow: scroll;
+    margin: 10px;
     /* gap: 8%;
     width: -webkit-fill-available;
     max-width: 169%; */
